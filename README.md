@@ -17,28 +17,14 @@ Se declaran con val para variables inmutables o var para variables mutables.
 3. **Genere un ejemplo internamente en el recuadro.**  
    - Utilice un editor de código para lograrlo.  
 
-fun main() {
-    val numeroEntero: Int = 10
-    val numeroDecimal: Double = 5.5
-    val esVerdadero: Boolean = true
-    val caracter: Char = 'k'
-    var texto: String = "Hola, Kotlin"
-    
-    println(numeroEntero)
-    println(numeroDecimal)
-    println(esVerdadero)
-    println(caracter)
-    println(texto)
-    
-    texto = "ADSO"
-    println(texto)
-}
+
+🔗 **[LINK DE CODIGO](https://pl.kotl.in/SqckacgRi?readOnly=true)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO](#)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](#)**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/variables.png)**  
 
 ---
 
