@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/c33d77a0-8eba-4697-9f8f-0d8b3009b076
 #### ESTRUCTURA 1  
 # MANEJO DE VARIABLES  
 
