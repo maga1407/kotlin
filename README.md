@@ -120,7 +120,8 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO](#)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](#)**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/user-attachments/assets/a07ff286-fb21-45c7-b0e6-a082a0c5be05)
+)**  
 
 ---
 
