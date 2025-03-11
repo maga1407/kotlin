@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/c33d77a0-8eba-4697-9f8f-0d8b3009b076
 #### ESTRUCTURA 1  
 # MANEJO DE VARIABLES  
 
@@ -23,7 +25,7 @@ Se declaran con val para variables inmutables o var para variables mutables.
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](#)**  
+🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/f3d8352b-d68a-4672-b5d7-37689effce86)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/variables.png)**  
 
 ---
