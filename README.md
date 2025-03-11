@@ -34,6 +34,7 @@ Se declaran con val para variables inmutables o var para variables mutables.
 
 
 fun main() {
+
     // Variables mutables (pueden cambiar de valor)
     var nombre: String = "Juan"
     var edad: Int = 25
