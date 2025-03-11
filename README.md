@@ -128,6 +128,7 @@ fun main() {
 ### Escribe una nota del cómo funciona la estructura  
 
 fun main() {
+    
     // Operadores Matemáticos
     val a = 10
     val b = 5
