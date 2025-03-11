@@ -58,3 +58,79 @@ fun main() {
     println("Nueva edad: $edad años")
 
 }
+
+
+#### ESTRUCTURA 2  
+# OPERADORES MATEMATICOS LOGICOS
+
+1. **Describa el por qué y para qué se utiliza.**
+  En Kotlin, los operadores matemáticos y lógicos son esenciales para realizar operaciones aritméticas y de comparación.
+
+- Suma (+)
+- Resta (-)
+- Multiplicación (*)
+- División (/)
+- Modulo (%)
+
+# OPERADORES DE ASIGANCIÓN
+- (+=)
+- (-=)
+- (*=)
+- (/=)
+- (%=)
+
+# OPERADORES DE COMPARACIÓN
+- Igual a (==)
+- Diferente de (!=)
+- Mayor que (>)
+- Menor que (<)
+- mayor o igual que (>=)
+- menor o igual que (<=)
+
+# OPERADORES LÓGICOS
+- AND (&&)
+- NOT (!)
+- OR (||)
+
+3. **Genere un ejemplo internamente en el recuadro.**  
+   - Utilice un editor de código para lograrlo.  
+
+fun main() {
+    
+    val a = 10
+    val b = 3
+    
+    println("Suma : ${a + b}")
+    println("Resta : ${a - b}")
+    println("Multiplicacion : ${a * b}")
+    println("Division : ${a / b}")
+    println("Modulo : ${a % b}")
+    
+    var x = 5
+    println("x antes : $x")
+    x += 2
+    println("x despues de x +=2: $x")
+    
+    println("comparacion (a>b): ${a>b}")
+    println("logica(true&&false): ${true&&false}")
+
+}
+
+### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+- Genere el link del audio y el link de GitHub.  
+
+🔗 **[LINK DEL AUDIO](#)**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](#)**  
+
+---
+
+### Escribe una nota del cómo funciona la estructura  
+
+```kotlin
+// NOTA
+
+// --
+
+// --
+
+```
