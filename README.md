@@ -72,14 +72,14 @@ fun main() {
 - División (/)
 - Modulo (%)
 
-# OPERADORES DE ASIGANCIÓN
+**OPERADORES DE ASIGANCIÓN**
 - (+=)
 - (-=)
 - (*=)
 - (/=)
 - (%=)
 
-# OPERADORES DE COMPARACIÓN
+**OPERADORES DE COMPARACIÓN**
 - Igual a (==)
 - Diferente de (!=)
 - Mayor que (>)
@@ -87,7 +87,7 @@ fun main() {
 - mayor o igual que (>=)
 - menor o igual que (<=)
 
-# OPERADORES LÓGICOS
+**OPERADORES LÓGICOS**
 - AND (&&)
 - NOT (!)
 - OR (||)
