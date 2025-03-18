@@ -30,7 +30,8 @@
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](![cadenas](https://github.com/user-attachments/assets/6e466489-5906-48d6-bb86-3759686128e6)
+)**
 
 ---
 
