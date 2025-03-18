@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Tektur", sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
@@ -32,6 +34,9 @@ h1 {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card h3 {
@@ -45,10 +50,18 @@ h1 {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: auto; /* Asegura que el botón esté en la parte inferior de la tarjeta */
 }
 
 .button:hover {
     background-color: #0056b3;
+}
+
+/* Media query para pantallas medianas */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas medianas */
+    }
 }
 
 /* Media query para pantallas pequeñas */
@@ -59,5 +72,21 @@ h1 {
 
     .card {
         margin-bottom: 20px; /* Espacio entre las tarjetas */
+    }
+}
+
+/* Media query para pantallas muy pequeñas (móviles) */
+@media (max-width: 480px) {
+    .container {
+        display: block; /* Cambia a bloque para que se vea como lista */
+    }
+
+    .card {
+        margin-bottom: 15px; /* Espacio entre las tarjetas */
+        padding: 15px; /* Ajusta el padding para pantallas pequeñas */
+    }
+
+    .button {
+        padding: 8px 12px; /* Ajusta el padding del botón para pantallas pequeñas */
     }
 }
