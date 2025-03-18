@@ -28,7 +28,7 @@ h1 {
 .card {
     background: white;
     border: 1px solid #ddd;
-    border-radius: 5 px;
+    border-radius: 5px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -49,4 +49,15 @@ h1 {
 
 .button:hover {
     background-color: #0056b3;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        display: block; /* Cambia a bloque para que se vea como lista */
+    }
+
+    .card {
+        margin-bottom: 20px; /* Espacio entre las tarjetas */
+    }
 }
