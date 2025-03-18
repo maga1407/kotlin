@@ -35,26 +35,7 @@
 2. **Genere un ejemplo internamente en el recuadro.**  
    - Utilice un editor de código para lograrlo.  
 
-fun main() {
-    
-    val a = 10
-    val b = 3
-    
-    println("Suma : ${a + b}")
-    println("Resta : ${a - b}")
-    println("Multiplicacion : ${a * b}")
-    println("Division : ${a / b}")
-    println("Modulo : ${a % b}")
-    
-    var x = 5
-    println("x antes : $x")
-    x += 2
-    println("x despues de x +=2: $x")
-    
-    println("comparacion (a>b): ${a>b}")
-    println("logica(true&&false): ${true&&false}")
-
-}
+🔗 **[LINK DEL CODIGO](https://pl.kotl.in/flBVVF9sa?readOnly=true)**
 
 ---
 
