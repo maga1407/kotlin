@@ -76,8 +76,7 @@ En Kotlin, el control de flujo se divide en tres categorías principales:
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]((https://github.com/user-attachments/assets/e9446f72-e414-4ac9-ae54-226fa9e1f68d)
-)**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/user-attachments/assets/e9446f72-e414-4ac9-ae54-226fa9e1f68d)**
 
 ---
 
