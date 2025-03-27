@@ -34,4 +34,30 @@ Se declaran con val para variables inmutables o var para variables mutables.
 
 ### Escribe una nota del cómo funciona la estructura  
 
+// fun main() {
+    // Variables mutables (pueden cambiar de valor)
+    var nombre: String = "Juan"
+    var edad: Int = 25
+    var altura: Double = 1.75
+    var esEstudiante: Boolean = true
+
+    // Variables inmutables (no pueden cambiar de valor)
+    val pais: String = "México"
+    val pi: Float = 3.1416f
+
+    // Imprimir los valores
+    println("Nombre: $nombre")
+    println("Edad: $edad años")
+    println("Altura: $altura metros")
+    println("Es estudiante: $esEstudiante")
+    println("País: $pais")
+    println("Valor de pi: $pi")
+
+    // Modificando variables mutables
+    nombre = "Carlos"
+    edad = 30
+
+    println("Nuevo nombre: $nombre")
+    println("Nueva edad: $edad años")
+}
 
