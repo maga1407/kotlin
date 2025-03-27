@@ -18,52 +18,52 @@
 
    - Utilice un editor de código para lograrlo.  
 
-🔗 **[LINK DE CODIGO]()** 
+🔗 **[LINK DE CODIGO](#)** 
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO]()**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB]()**
+🔗 **[LINK DEL AUDIO](#)**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/collections/collectios.png)**
 
 ---
 
 ### Escribe una nota del cómo funciona la estructura
 
-```
-import kotlinx.serialization.*
+```kotlin
+// Importamos las funciones necesarias para manejar JSON en Kotlin
 import kotlinx.serialization.json.*
-import java.io.File
-
-// Definir la clase de datos y habilitar JSON
-@Serializable
-data class Estudiante(val nombre: String, val edad: Int)
 
 fun main() {
-    // Crear una colección de estudiantes (List)
+    // LISTAS (List)
+    // Una lista (List) es una colección ordenada de elementos.
+    // En este caso, la lista contiene varios mapas (Map).
     val estudiantes = listOf(
-        Estudiante("Ana", 20),
-        Estudiante("Luis", 22),
-        Estudiante("Carlos", 19)
+        // MAPAS (Map)
+        // Un mapa (Map) es una estructura de datos que almacena pares clave-valor.
+        // En este caso, cada mapa representa un estudiante con su nombre y nota.
+        mapOf("nombre" to "Ana", "nota" to 4.5),
+        mapOf("nombre" to "Luis", "nota" to 3.8),
+        mapOf("nombre" to "Carlos", "nota" to 4.2)
     )
 
-    // Convertir la lista a JSON
+    // CONVERTIR LA LISTA A JSON
+    // JSON (JavaScript Object Notation) es un formato de texto usado para almacenar y transportar datos.
+    // La función encodeToString convierte la lista a una cadena JSON.
     val jsonString = Json.encodeToString(estudiantes)
     println("JSON generado:\n$jsonString")
 
-    // 📌 4. Guardar el JSON en un archivo
-    val archivo = File("estudiantes.json")
-    archivo.writeText(jsonString)
-    println("✅ Datos guardados en estudiantes.json")
+    // CONVERTIR EL JSON A UNA LISTA DE MAPAS
+    // La función decodeFromString transforma el JSON en una estructura de datos nuevamente.
+    val listaRecuperada: List<Map<String, Any>> = Json.decodeFromString(jsonString)
 
-    // 📌 5. Leer el JSON desde el archivo
-    val contenido = archivo.readText()
-    println("📂 JSON leído desde el archivo:\n$contenido")
-
-    // 📌 6. Convertir el JSON nuevamente a una lista de objetos
-    val estudiantesLeidos = Json.decodeFromString<List<Estudiante>>(contenido)
-    println("📌 Lista de estudiantes recuperada desde JSON:")
-    estudiantesLeidos.forEach { println("${it.nombre}, ${it.edad} años") }
+    // MOSTRAR LOS DATOS RECUPERADOS
+    // Iteramos sobre la lista recuperada para imprimir cada estudiante y su nota.
+    println(" Lista de estudiantes recuperada desde JSON:")
+    listaRecuperada.forEach { estudiante ->
+        println("${estudiante["nombre"]}, Nota: ${estudiante["nota"]}")
+    }
 }
+
 ```
 
