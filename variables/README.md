@@ -29,3 +29,9 @@ Se declaran con val para variables inmutables o var para variables mutables.
 
 🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/f3d8352b-d68a-4672-b5d7-37689effce86)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/variables/variables.png)**
+
+---
+
+### Escribe una nota del cómo funciona la estructura  
+
+
