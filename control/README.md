@@ -26,7 +26,7 @@ Permiten repetir un bloque de código.
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/cd616138-db1f-41a4-aae8-1a2485d875b3)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](<img width="243" alt="estructurascontrol" src="https://github.com/user-attachments/assets/529460ef-5e10-4bd5-a383-6be71de91a65" />
 )**
 
