@@ -17,8 +17,25 @@
 2. **Genere un ejemplo internamente en el recuadro.**  
 
    - Utilice un editor de código para lograrlo.  
+```kotlin
+fun main() {
+    // List: puede tener elementos repetidos y mantiene el orden
+    val lista: List<String> = listOf("A", "B", "A")
+    println("📋 List:")
+    println(lista) // Imprime: [A, B, A]
 
-🔗 **[LINK DE CODIGO](#)** 
+    // Set: NO permite duplicados y el orden no siempre es garantizado
+    val conjunto: Set<String> = setOf("A", "B", "A")
+    println("\n✅ Set:")
+    println(conjunto) // Imprime: [A, B] (solo una "A")
+
+    // Map: relaciona claves con valores
+    val mapa: Map<String, Int> = mapOf("A" to 1, "B" to 2)
+    println("\n🗺️ Map:")
+    println(mapa) // Imprime: {A=1, B=2}
+}
+
+```
 
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
@@ -31,37 +48,43 @@
 ### Escribe una nota del cómo funciona la estructura
 
 ```kotlin
-// Importamos las funciones necesarias para manejar JSON en Kotlin
-import kotlinx.serialization.json.*
-
 fun main() {
-    // LISTAS (List)
-    // Una lista (List) es una colección ordenada de elementos.
-    // En este caso, la lista contiene varios mapas (Map).
-    val estudiantes = listOf(
-        // MAPAS (Map)
-        // Un mapa (Map) es una estructura de datos que almacena pares clave-valor.
-        // En este caso, cada mapa representa un estudiante con su nombre y nota.
-        mapOf("nombre" to "Ana", "nota" to 4.5),
-        mapOf("nombre" to "Luis", "nota" to 3.8),
-        mapOf("nombre" to "Carlos", "nota" to 4.2)
+    // Creamos una lista de estudiantes, con un duplicado ("Laura" aparece dos veces)
+    val estudiantes: List<String> = listOf("Laura", "Carlos", "Laura", "Miguel")
+
+    // Convertimos la lista a un Set para eliminar duplicados automáticamente
+    // Un Set solo guarda valores únicos
+    val estudiantesUnicos: Set<String> = estudiantes.toSet()
+
+    // Creamos un mapa (Map) que asocia cada nombre de estudiante con una calificación (entero)
+    val calificaciones: Map<String, Int> = mapOf(
+        "Laura" to 90,
+        "Carlos" to 75,
+        "Miguel" to 88
+        // Nota: No hay nota para "Pedro", por ejemplo
     )
 
-    // CONVERTIR LA LISTA A JSON
-    // JSON (JavaScript Object Notation) es un formato de texto usado para almacenar y transportar datos.
-    // La función encodeToString convierte la lista a una cadena JSON.
-    val jsonString = Json.encodeToString(estudiantes)
-    println("JSON generado:\n$jsonString")
+    // Mostramos la lista de estudiantes únicos (sin duplicados)
+    println("📋 Lista de estudiantes únicos:")
+    for (nombre in estudiantesUnicos) {
+        println("- $nombre")
+    }
 
-    // CONVERTIR EL JSON A UNA LISTA DE MAPAS
-    // La función decodeFromString transforma el JSON en una estructura de datos nuevamente.
-    val listaRecuperada: List<Map<String, Any>> = Json.decodeFromString(jsonString)
+    println("\n🎓 Calificaciones:")
 
-    // MOSTRAR LOS DATOS RECUPERADOS
-    // Iteramos sobre la lista recuperada para imprimir cada estudiante y su nota.
-    println(" Lista de estudiantes recuperada desde JSON:")
-    listaRecuperada.forEach { estudiante ->
-        println("${estudiante["nombre"]}, Nota: ${estudiante["nota"]}")
+    // Recorremos el set de nombres únicos para mostrar las calificaciones
+    for (nombre in estudiantesUnicos) {
+        // Obtenemos la calificación desde el Map
+        // Usamos Int? porque puede que no exista una nota (podría ser null)
+        val nota: Int? = calificaciones[nombre]
+
+        // Si la nota no es null, la mostramos
+        // Si es null, mostramos que no hay nota registrada
+        if (nota != null) {
+            println("$nombre: $nota")
+        } else {
+            println("$nombre: sin nota registrada")
+        }
     }
 }
 
