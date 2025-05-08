@@ -75,7 +75,7 @@ En Kotlin, el control de flujo se divide en tres categorías principales:
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO]()**  
+🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/0cefbc60-0bd9-46c4-8cff-2f8d38a7b6e2)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/user-attachments/assets/e9446f72-e414-4ac9-ae54-226fa9e1f68d)**
 
 ---
