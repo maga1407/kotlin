@@ -24,7 +24,7 @@
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO](#)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/collections/collectios.png)**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/collections/imgCollections/codeCollections.png)**
 
 ---
 
