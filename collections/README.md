@@ -19,17 +19,14 @@
    - Utilice un editor de código para lograrlo.  
 ```kotlin
 fun main() {
-    // List: puede tener elementos repetidos y mantiene el orden
     val lista: List<String> = listOf("A", "B", "A")
     println("📋 List:")
     println(lista) // Imprime: [A, B, A]
 
-    // Set: NO permite duplicados y el orden no siempre es garantizado
     val conjunto: Set<String> = setOf("A", "B", "A")
     println("\n✅ Set:")
     println(conjunto) // Imprime: [A, B] (solo una "A")
 
-    // Map: relaciona claves con valores
     val mapa: Map<String, Int> = mapOf("A" to 1, "B" to 2)
     println("\n🗺️ Map:")
     println(mapa) // Imprime: {A=1, B=2}
