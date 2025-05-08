@@ -37,7 +37,7 @@ fun main() {
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](#)**  
+🔗 **[LINK DEL AUDIO](https://github.com/maga1407/kotlin/blob/main/collections/Collections.mp3)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/maga1407/kotlin/blob/main/collections/imgCollections/codeCollections.png)**
 
 ---
