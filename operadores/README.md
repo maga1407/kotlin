@@ -42,7 +42,8 @@
 ### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](#)**  
+🔗 **[LINK DEL AUDIO](
+https://github.com/user-attachments/assets/5af1deed-ace1-43a0-9ce7-050c0fc01519)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/user-attachments/assets/a07ff286-fb21-45c7-b0e6-a082a0c5be05)**  
 
 ---
