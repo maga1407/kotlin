@@ -18,8 +18,7 @@ La **programación funcional** se utiliza para escribir código más claro, pred
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO](https://github.com/user-attachments/assets/9cf8ccaf-8d99-41e4-9308-cd7fe10f9980)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](![ejercicio1](https://github.com/user-attachments/assets/831fb00b-183f-4f40-8749-816a24060e12)
-)**
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/user-attachments/assets/831fb00b-183f-4f40-8749-816a24060e12)**
 
 ---
 
